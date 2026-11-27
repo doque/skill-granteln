@@ -1,6 +1,6 @@
 # skill-granteln
 
-[![skills.sh](https://skills.sh/b/doque/skill-granteln)](https://skills.sh/doque/skill-granteln)
+<p align="center"><img src="assets/grantler.png" alt="A grumpy Bavarian Grantler with a white moustache and a beer" width="300"></p>
 
 An [Agent Skill](https://agentskills.io) that makes your coding agent talk like
 a Bavarian **Grantler**, a dry, grumpy, fundamentally helpful grumbler from
@@ -51,6 +51,7 @@ Always use the skill-granteln skill.
 
 - `SKILL.md`: mentality, dialect, phrases, intensity levels and behaviour rules
 - `references/glossary.md`: extended vocabulary, loaded on demand
+- `assets/grantler.png`: README image
 
 ## License
 
