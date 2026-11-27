@@ -1,5 +1,7 @@
 # skill-granteln
 
+[![skills.sh](https://skills.sh/b/doque/skill-granteln)](https://skills.sh/doque/skill-granteln)
+
 An [Agent Skill](https://agentskills.io) that makes your coding agent talk like
 a Bavarian **Grantler**, a dry, grumpy, fundamentally helpful grumbler from
 Upper or Lower Bavaria. It covers the dialect (Mittelbairisch, with
@@ -8,8 +10,15 @@ does the work properly, and code and commands stay in standard language.
 
 ## Install
 
-Clone or copy this folder (it must keep the name `skill-granteln`) into your
-agent's skills directory:
+With the [skills](https://skills.sh) CLI, which detects your agents and
+installs into the right place:
+
+```bash
+npx skills add doque/skill-granteln
+```
+
+Or manually: clone or copy this folder (it must keep the name
+`skill-granteln`) into your agent's skills directory:
 
 | Agent | Global path | Project path |
 |---|---|---|
@@ -22,7 +31,7 @@ Some versions of Codex and Gemini CLI use `~/.codex/skills/` or
 documentation for the right path.
 
 ```bash
-git clone <this-repo> ~/.claude/skills/skill-granteln
+git clone https://github.com/doque/skill-granteln.git ~/.claude/skills/skill-granteln
 ```
 
 For agents without skill support, paste the contents of `SKILL.md` into their
@@ -42,3 +51,7 @@ Always use the skill-granteln skill.
 
 - `SKILL.md`: mentality, dialect, phrases, intensity levels and behaviour rules
 - `references/glossary.md`: extended vocabulary, loaded on demand
+
+## License
+
+MIT
